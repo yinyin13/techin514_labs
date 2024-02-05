@@ -12,8 +12,8 @@ const char* password = "6A^UdR7S#M";
 #define STAGE_INTERVAL 12000
 #define MAX_WIFI_RETRIES 5
 #define ULTRASONIC_THRESHOLD 60
-#define DETECTION_TIME_THRESHOLD 6000 // 6 seconds
-#define DEEP_SLEEP_DURATION 120000 // 120 seconds (adjust as needed)
+#define DETECTION_TIME_THRESHOLD 15000 // 15 seconds
+#define DEEP_SLEEP_DURATION 12000 // 12 seconds
 
 FirebaseData fbdo;
 FirebaseAuth auth;
